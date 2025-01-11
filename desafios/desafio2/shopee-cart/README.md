@@ -83,17 +83,14 @@ Vamos criar a lógica por trás do carrinho de compras da shopee, aonde o carrin
 ## 📁 Estrutura de Pastas Sugerida
 
 ```plaintext
-shopee-cart/
-├── src/
-│   ├── cart.js
-│   ├── item.js
-│   └── utils.js
-├── test/
-│   ├── cart.test.js
-│   └── item.test.js
-├── .gitignore
-├── package.json
-└── readme.md
+📁shopee-cart
+└── 📁src
+│  └── 📁services
+│  │   └── cart.js
+│  │   └── item.js
+│  └── index.js
+└── package.json
+└── README.md
 ```
 
 ## 📚 Pré-requisitos de Habilidades e Níveis de Conhecimento
