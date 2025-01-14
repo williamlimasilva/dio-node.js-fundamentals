@@ -6,21 +6,21 @@ npm init -y
 
 npm init -y typescript
 
-# Instala as dependências
+# Instala as dependências como desenvolvedor
 
-npm i typescript tsx tsup
+npm i typescript tsx tsup -D
 
 # Cria a pasta src
 
 mkdir src
 
-# Cria o arquivo inicial
-
-echo 'console.log("hello world");' > src\dado.ts
-
 # Cria o arquivo tsconfig
 
 npx tsc --init
+
+# Cria o arquivo inicial
+
+echo 'console.log("hello world");' > src\dado.ts
 
 # Scripts para JavaScript
 
